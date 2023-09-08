@@ -1,0 +1,114 @@
+/* adding custom font and background */
+body{
+    font-family: 'Roboto' ;
+    font-weight: 500;
+    background-color: #354740;
+    font-size:20px;
+    
+}
+
+.form{
+    background: rgb(94, 93, 93);
+    padding: 50px;
+    margin: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    
+}
+.title{
+    color:white;
+    text-transform: uppercase;
+}
+    
+
+.imp{
+    background:linear-gradient(90deg, rgb(159, 178, 151) 0%, rgba(178,187,169,1) 23%, rgba(252,252,251,1) 100%);
+    
+}
+
+li{
+    
+    
+    border-radius: 20px;
+    padding-left: 22px;
+    padding-right: 30px;
+    color: black;
+    background: linear-gradient(90deg, rgba(135,147,130,1) 0%, rgba(178,187,169,1) 23%, rgba(252,252,251,1) 100%);
+}
+
+.form-check-input{
+  border-radius: 100%;
+}
+
+.add-btn{
+    background: rgb(84, 117, 84);
+    border:solid 2px;
+    
+}
+.add-btn:hover{
+    background: rgb(84, 117, 84);
+    opacity:0.5;
+    border:solid 2px;
+    
+}
+
+.remove-btn , .edit-btn, .check-btn{
+    cursor: pointer;
+}
+
+.remove-btn{
+    color: red;
+    margin-left:50px;
+}
+
+
+.check-btn{
+    
+    color: green;
+    
+}
+
+.edit-btn{
+    color:black;
+}
+
+
+
+.edit-input{
+    height:25px;
+    
+
+
+
+    
+}
+
+
+
+
+
+.checked{
+    background: lightgreen;
+    text-decoration: line-through;
+    transition: .5s
+}
+
+li:hover{
+    cursor:pointer;
+    opacity:0.8;
+
+
+}
+
+.imp:hover{
+    opacity:0.7;
+}
+
+
+
+
+
+
+
+
+
